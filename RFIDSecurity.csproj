@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Symbol.RFID3.Host">
+      <HintPath>D:\RFID\Zebra RFID FXSeries Host .NET SDK\SDK\Symbol.RFID3.Host.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
